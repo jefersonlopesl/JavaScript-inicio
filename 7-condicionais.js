@@ -6,7 +6,9 @@ const listaDeDestinos = new Array(
       `Curitiba`
 )
 const idadeComprador = 17;
-const estaAcompanhada = true;
+const estaAcompanhada = false;
+conts temPassagemComprada = true;
+
 console.log("destinos possiveis:");
 console.log(listaDeDestinos);
 
