@@ -5,7 +5,8 @@ const listaDeDestinos = new Array(
       `Rio de Janeiro`,
       `Curitiba`
 )
-const idadeComprador = 15;
+const idadeComprador = 17;
+const estaAcompanhada = true;
 console.log("destinos possiveis:");
 console.log(listaDeDestinos);
 
@@ -14,6 +15,12 @@ if(idadeComprador >= 18){
     listaDeDestinos.splice(1,1);///removendo meu intem
 }
 else{
-console.log("Não é maior de idade");
+//a pessoa é menos de idadeComprador
+  if (estaAcompanhada){
+    console.log("menor está acompanhado");
+    listaDeDestinos.splice(1,1);///removendo meu intem
+  } else {
+      console.log("Não é maior de idade e não posso vender")
+  }
 }
 console.log(listaDeDestinos);
