@@ -1,0 +1,20 @@
+{
+  "name": "bytbank",
+  "version": "1.0.0",
+  "description": "Projeto do bytbank para seus clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefersonlopesl/JavaScript-inicio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+  "bugs": {
+    "url": "https://github.com/jefersonlopesl/JavaScript-inicio/issues"
+  },
+  "homepage": "https://github.com/jefersonlopesl/JavaScript-inicio#readme"
+}
