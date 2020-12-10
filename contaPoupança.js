@@ -1,7 +1,7 @@
 export class ContaPoupança {
-  constructor(saldoInicial, ciente, agencia) {
+  constructor(saldoInicial, cliente, agencia) {
       this>_saldo = saldoInicial;
-      this.Cliente = Cliente;
+      this._cliente = cliente;
       this._agencia = agencia;
 
     }
@@ -15,13 +15,13 @@ export class ContaPoupança {
 }
 }
   depositar(valor) {
-    if(valor <= 0)
-    {
-      return
+    if(valor <= 100) {
+    return;
+  }
+     this._saldo += valor;
     }
 
   transferir(valor, conta) {
-          conta.cidade = "São Paulo";
           const valorSacado = this.sacar(valor);
           conta.depositar(salorSacado);
     }
