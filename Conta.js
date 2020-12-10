@@ -9,7 +9,7 @@ export class conta {
   }
   
     sacar(valor) {
-      let = taxa = 1;
+      let taxa = 1;
       if (this._tipo == "corrente"){
         taxa = 1.1;
       }
